@@ -4,7 +4,7 @@ import ProductCard from './components/productCard'
 function App() {
   
     return (
-      <>
+      <div className='bg-red-900'>
        <ProductCard name="audio setup"
        price="245.00"
        description="Michael Kors Oversized Slim Runway Men's Watch, Stainless Steel Watch for men"
@@ -22,7 +22,7 @@ function App() {
 
        
        />
-      </>
+      </div>
     )
 }
 
