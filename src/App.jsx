@@ -1,17 +1,22 @@
-import ProductCard from './components/productCard'
-import { MdOutlineDashboardCustomize } from "react-icons/md";
-import { BiBookmarks } from "react-icons/bi";
-import { PiSpeakerHifiBold } from "react-icons/pi";
-import { LuUserPlus } from "react-icons/lu";
+
 import AdminPage from './components/adminPage';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
 
 function App() {
   return (
-   <div>
-    <AdminPage/>
-   </div>
-)
+    <BrowserRouter>
+      <Routes>
+        <Route path='/*' element={<AdminPage/>}/>
+        {/* <Route path='/*' element={<h1>Error Not Found 404</h1>}/>
+
+         */}
+      </Routes>
+    
+    
+    
+    </BrowserRouter>
+  )
 }
 export default App
