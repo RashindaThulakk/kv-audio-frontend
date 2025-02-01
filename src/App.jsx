@@ -8,9 +8,10 @@ import HomePage from './pages/home/homePage';
 function App() {
   return (
     <BrowserRouter>
-      <Routes path="/*">
-        <Route path="/admin*" element={<AdminPage/>}/>
-        <Route path="/home*" element={<HomePage/>}/>
+      <Routes>
+         <Route path="/*" element={<HomePage/>}/>
+        <Route path="/admin/*" element={<AdminPage/>}/>
+        
       </Routes>
     
     

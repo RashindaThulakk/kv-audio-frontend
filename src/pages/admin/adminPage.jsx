@@ -8,7 +8,7 @@ export default function AdminPage() {
   return (
     
     <div className="w-full h-screen flex">
-      {/* Sidebar */}
+      {/* Dadhboard pannel */}
       <div className="w-[300px] h-full bg-red-900 flex flex-col items-center">
         <Link
           to="/admin/dashboard"
@@ -43,10 +43,10 @@ export default function AdminPage() {
         </Link>
       </div>
 
-     {/* Content Area */}
+     {/* body area */}
      <div className="w-[calc(100vw-300px)] h-full bg-red-300 p-5">
         <Routes>
-          <Route path="/admin/dashboard" element={<h1>Dashboard</h1>} />
+          <Route path="dashboard" element={<h1>Dashboard</h1>} />
           <Route path="/admin/bookings" element={<h1>Bookings</h1>} />
           <Route path="/admin/items" element={<h1>Items</h1>} />
           <Route path="/admin/users" element={<h1>Users</h1>} />
