@@ -50,7 +50,7 @@ export default function AdminPage() {
           <Route path="/admin/bookings" element={<h1>Bookings</h1>} />
           <Route path="/admin/items" element={<h1>Items</h1>} />
           <Route path="/admin/users" element={<h1>Users</h1>} />
-          {/* <Route path="/admin/*" element={<h1>Page not found</h1>}/> */}
+          <Route path="/admin/*" element={<h1>Page not found</h1>}/>
         </Routes>
         
       </div>
