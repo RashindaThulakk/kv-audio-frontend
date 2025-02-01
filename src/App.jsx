@@ -8,7 +8,7 @@ import HomePage from './pages/home/homePage';
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
+      <Routes path="/*">
          <Route path="/*" element={<HomePage/>}/>
         <Route path="/admin/*" element={<AdminPage/>}/>
         
