@@ -49,7 +49,7 @@ export default function AdminPage() {
           <Route path="dashboard" element={<h1>Dashboard</h1>} />
           <Route path="bookings" element={<h1>Bookings</h1>} />
           <Route path="items" element={<h1>Items</h1>} />
-          <Route path="/admin/users" element={<h1>Users</h1>} />
+          <Route path="/users" element={<h1>Users</h1>} />
           <Route path="/admin/*" element={<h1>Page not found</h1>}/>
         </Routes>
         
